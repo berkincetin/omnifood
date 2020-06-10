@@ -142,6 +142,10 @@ a, .city-link {
     padding-bottom: 1px;
     border-bottom: 1px solid var(--clr-primary);
     transition: border-bottom 0.2s, color 0.2s;
+    -webkit-transition: border-bottom 0.2s, color 0.2s;
+    -moz-transition: border-bottom 0.2s, color 0.2s;
+    -ms-transition: border-bottom 0.2s, color 0.2s;
+    -o-transition: border-bottom 0.2s, color 0.2s;
 }
 a:hover, .city-link:hover {
     color: #555;
@@ -158,6 +162,10 @@ input[type=submit] {
     text-decoration: none;
     border-radius: 200px;
     transition: background-color 0.2s, border 0.2s, color 0.2s;
+    -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
+    -moz-transition: background-color 0.2s, border 0.2s, color 0.2s;
+    -ms-transition: background-color 0.2s, border 0.2s, color 0.2s;
+    -o-transition: background-color 0.2s, border 0.2s, color 0.2s;
 }
 
 
@@ -249,13 +257,16 @@ header {
 .main-nav li a:link,
 .main-nav li a:visited {
     padding: 8px 0;
-
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 90%;
     border-bottom: 2px solid transparent;
     transition: border-bottom .2s;
+    -webkit-transition: border-bottom .2s;
+    -moz-transition: border-bottom .2s;
+    -ms-transition: border-bottom .2s;
+    -o-transition: border-bottom .2s;
 }
 .main-nav li a:hover,
 .main-nav li a:active {
@@ -298,6 +309,10 @@ header {
     transform: scale(1.15);
     transition: transform 0.5s, opacity 0.5s;
     opacity: 0.7;
+    -webkit-transition: transform 0.5s, opacity 0.5s;
+    -moz-transition: transform 0.5s, opacity 0.5s;
+    -ms-transition: transform 0.5s, opacity 0.5s;
+    -o-transition: transform 0.5s, opacity 0.5s;
 }
 
 .meal-photo img:hover {
