@@ -20,13 +20,15 @@
     --clr-hover: #cf6d17;
 }
 
-html {
+html,
+body {
     background-color: #fff;
     color: #555;
     font-family: 'Lato', 'Arial', sans-serif;
     font-weight: 300;
     font-size: 20px;
     text-rendering: optimizeLegibility;
+    overflow-x: hidden;
 }
 
 .clearfix {zoom: 1;}
@@ -101,8 +103,8 @@ h2:after {
     line-height: 145%;
     width: 70%;
     margin-left: 15%;
-
 }
+
 .box p {
     font-size: 90%;
     line-height: 145%;
